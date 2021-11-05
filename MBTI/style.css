@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  background: #f0c1a5;
+}
+.container {
+  background: #f0c1a5;
+  text-align: center;
+}
+.MainTitle {
+  color: #ce7f57;
+}
+h2.MainTitle {
+  font-weight: 600;
+}
+.container .main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main_img {
+  width: 400px;
+  margin-bottom: 10px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.question {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+.progress {
+  margin-bottom: 50px;
+}
+.progress .progress-bar {
+  background: #e0a171;
+}
+#Qtitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.result {
+  max-width: 80%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.res_img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 0 10px 0;
+  background: #f0f0f0;
+}
+#animal {
+  color: #ce7f57;
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+#explain {
+  color: #ce7f57;
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.compatibility {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+.good {
+  width: 50%;
+}
+.bad {
+  width: 50%;
+}
+.com_img {
+  width: 100px;
+  height: 100px;
+}
+.btn.restart {
+  width: 300px;
+  margin-top: 30px;
+}
+.start_btn {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  color: #ce7f57;
+  font-weight: 600;
+  background: #e8af91;
+}
+.start_btn:hover {
+  animation: 0.5s ease-in-out;
+  color: #ce7f57;
+  font-weight: 600;
+  background: #e0a171;
+}
+.btn {
+  width: 500px;
+  border: none;
+  border-radius: 20px;
+  color: #f0f0f0;
+  background: #e0a171;
+  margin-bottom: 10px;
+}
+.btn:hover {
+  animation: 0.5s ease-in-out;
+  color: #f0f0f0;
+  background: #ce7f57;
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  color: #0f0f0f;
+  font-size: 13px;
+  background: #e0a171;
+}
